@@ -16,6 +16,5 @@ class DatabaseSeeder extends Seeder
         $this->call(OreSeeder::class);
         $this->call(GemSeeder::class);
         $this->call(ItemSeeder::class);
-        $this->call(AchievementSeeder::class);
     }
 }
