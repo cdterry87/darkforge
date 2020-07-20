@@ -9,7 +9,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <title>{{ config('app.name', 'Laravel-Vuetify-GraphQL') }}</title>
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet"> 
         <link href="{{ mix('css/auth.css') }}" rel="stylesheet">
     </head>
     <body>

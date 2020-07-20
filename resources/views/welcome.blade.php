@@ -4,10 +4,8 @@
     <div id="welcome">
         <div class="content">
             <div class="title">
-                {{ config('app.name', 'Laravel') }}
-                <div class="subtitle">
-                    Something interesting about this site!
-                </div>
+                <h1>{{ config('app.name', 'Laravel') }}</h1>
+                <h2>The Forge Simulator</h2>
             </div>
             <div class="links">
                 @auth

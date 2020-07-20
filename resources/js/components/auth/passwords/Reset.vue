@@ -5,10 +5,9 @@
         <v-layout align-center justify-center wrap>
           <v-flex xs12 sm10 md5>
             <div class="text-center mb-3">
-              <h1 class="display-1">{{ title }}</h1>
-              <h2 class="title mt-2">
-                Reset your password using the form
-                <b></b>elow.
+              <h1>{{ title }}</h1>
+              <h2>
+                Reset your password using the form below.
               </h2>
             </div>
             <div class="mt-3 mb-5" v-if="errorMessages.length > 0">
